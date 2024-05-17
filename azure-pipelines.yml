@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'My_self_hosted'
+name: 'My_self_hosted'
 
 steps:
 - task: UsePythonVersion@0
